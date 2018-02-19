@@ -1,0 +1,28 @@
+.navbar{
+   background-color: teal;
+   color: #fff;
+}
+
+
+
+.fa-arrow-left, .fa-bars{
+	font-size: 3.5em;
+	color: white;
+	cursor: pointer;
+}
+
+.fa-arrow-left{
+	margin-left: 0.5em;
+	margin-top: 0.2em;
+}
+
+.item-navbar{
+	display:flex;
+	justify-content: center;
+}
+
+.fa-bars{
+	margin-top:0.2em;
+	margin-left: 4.5em;
+	
+}
