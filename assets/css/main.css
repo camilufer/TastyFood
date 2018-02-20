@@ -41,6 +41,8 @@ a:hover {
   text-align: center;
   background-color: #EAEAEA;
   color: teal;
+  padding: 0;
+  height: 100vh;
 }
 .account {
   background-color: teal;
@@ -60,3 +62,35 @@ a:hover {
   }
 }
 
+/*navbar search html*/
+@media screen and (max-width: 768px) {
+  .side-collapse-container{
+    width:100%;
+    position:relative;
+    right:0;
+    transition:right .5s;
+  }
+  .side-collapse-container.out{
+    right:200px;
+  }
+  .side-collapse {
+    top:50px;
+    bottom:0;
+    right:0;
+    width:200px;
+    position:fixed;
+    overflow:hidden;
+    transition:width .4s;
+  }
+  .side-collapse.in {
+    width:0;
+  }
+}
+
+.navbar-color{
+  background-color: teal;
+}
+
+.navbar-inverse{
+  z-index: 2;
+}
