@@ -1,3 +1,7 @@
+.navbar-container{
+    display: none;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -31,6 +35,8 @@ a {
   text-decoration: none;
   color: #fff;
 }
+
+
 /*Queries*/
 /*@media (min-width: 992px) {
   #welcome h1 {
@@ -40,3 +46,4 @@ a {
     margin-top: 15em;
   }
 }*/
+
