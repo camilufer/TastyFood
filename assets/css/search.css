@@ -1,26 +1,26 @@
 @media screen and (max-width: 768px) {
-          .side-collapse-container{
-              width:100%;
-              position:relative;
-              left:0;
-              transition:left .5s;
-          }
-          .side-collapse-container.out{
-              left:200px;
-          }
-          .side-collapse {
-              top:50px;
-              bottom:0;
-              left:0;
-              width:200px;
-              position:fixed;
-              overflow:hidden;
-              transition:width .4s;
-          }
-          .side-collapse.in {
-              width:0;
-          }
-      }    
+  .side-collapse-container{
+    width:100%;
+    position:relative;
+    left:0;
+    transition:left .5s;
+    }
+  .side-collapse-container.out{
+    left:200px;
+    }
+  .side-collapse {
+    top:50px;
+    bottom:0;
+    left:0;
+    width:200px;
+    position:fixed;
+    overflow:hidden;
+    transition:width .4s;
+    }
+  .side-collapse.in {
+    width:0;
+    }
+}    
     
 .navbar-color{
   background-color: teal;
@@ -29,6 +29,22 @@
 .navbar-inverse{
   z-index: 2;
 }
+
+.logotipo{
+  width: 10em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-container{
+
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+
 
 
 
