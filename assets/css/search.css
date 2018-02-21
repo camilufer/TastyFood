@@ -1,3 +1,19 @@
+#map {
+    margin-top: 2em;
+    height: 100%;
+    width: 100%;
+    border: 5px solid #CAB6A8;
+    border-radius: 20px;
+}
+
+
+     
+html, body {
+    height: 100%;
+    
+    
+}
+
 @media screen and (max-width: 768px) {
   .side-collapse-container{
     width:100%;
@@ -37,11 +53,7 @@
   margin-right: auto;
 }
 
-.info-container{
 
-    border-style: solid;
-    border-width: 1px;
-}
 
 
 
